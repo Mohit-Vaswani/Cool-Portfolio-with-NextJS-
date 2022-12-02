@@ -12,8 +12,9 @@ const Hero = (props) => (
         My Personal Portfolio.
       </SectionTitle>
       <SectionText>
-        Hey👋🏻, My Name is Mohit an India Based Frontend Developer. 
+        Hey👋🏻, My Name is Mohit a freelance developer specialized in both front-end and back-end web development.
       </SectionText>
+      <Button onClick={()=>window.location = 'https://mohitvaswani.netlify.app/'} >Learn More</Button>
     </LeftSection>
   </Section>
 );
